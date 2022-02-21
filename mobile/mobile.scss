@@ -60,7 +60,7 @@ body.tab-bar-hidden {
   width: 100%;
   height: $bar-height;
   position: fixed;
-  bottom: 0;
+  bottom:10px;
   z-index: z("dropdown") - 1;
   box-shadow: 0px -2px 4px -1px rgba(0, 0, 0, 0.25);
   padding-bottom: env(
