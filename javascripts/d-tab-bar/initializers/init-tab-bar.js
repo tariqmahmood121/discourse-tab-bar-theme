@@ -111,7 +111,7 @@ export default {
         }
       });
 
-      api.registerConnectorClass("above-footer", "d-tab-bar", {
+      api.registerConnectorClass("above-header", "d-tab-bar", {
         shouldRender() {
           return !Ember.isEmpty(user);
         },
