@@ -10,7 +10,7 @@ html:not(.anon) {
   }
 
   #topic-progress-wrapper.docked {
-   // margin-bottom: $bar-height-10 * -1;
+   margin-bottom: $bar-height-10 * -1;
   }
 
   #main-outlet {
@@ -32,7 +32,7 @@ html:not(.anon) {
 
 body.tab-bar-hidden {
   .d-tab-bar {
-    bottom: $bar-height * -1;
+  //  bottom: $bar-height * -1;
     transition: all 0.2s ease-in;
   }
 
